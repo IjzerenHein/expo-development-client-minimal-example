@@ -15,13 +15,13 @@ These instructions link to specific commits that show the diff for that step. Th
       - [Edit Info.plist](https://github.com/nikki93/expo-development-client-minimal-example/commit/a1f11a1aed26629530a9b264bc5721501227e1c4)
     - Run from Xcode, follow the instructions you see in the development client launcher screen that now appears.
   - Android
-    - [Edit MainActivit.java, MainApplication.java](https://github.com/nikki93/expo-development-client-minimal-example/commit/1fa4504373ae4541ee7027b60ed00848848732c4)
+    - [Edit MainActivity.java, MainApplication.java](https://github.com/nikki93/expo-development-client-minimal-example/commit/1fa4504373ae4541ee7027b60ed00848848732c4)
     - Enable camera permissions
       - Run the app once to get it on your device.
       - On the device, manually go to the app's 'App Info' (eg. long-press app icon in Android menu), go to permissions and enable Camera permissions, then restart the app. You can now follow the instructions in the development client launcher that appears.
 - Install expo-dev-menu
   - package.json dependencies
-    - yarn add expo-dev-menu
+    - yarn add expo-dev-menu@next
       - [Resulting auto-generated package.json changes](https://github.com/nikki93/expo-development-client-minimal-example/commit/88858ca8aa3d5885f8dbe01ab7194e2af53dff7a)
       - [Resulting auto-generated yarn.lock changes](https://github.com/nikki93/expo-development-client-minimal-example/commit/3dbcbe93810e364b2e4ee184951184d2abd810d3)
   - iOS
